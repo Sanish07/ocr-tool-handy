@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Tesseract from 'tesseract.js';
+import { Button} from '@mui/material';
 
 const Main = () => {
     const [imagePath, setImagePath] = useState("");
@@ -30,20 +31,23 @@ const Main = () => {
 
   return (
       <div>
+        <div id="logo-area"><span>Handy</span> OCR</div>
+        <div id="main-area">
         <div id="img-area">
-            <img alt='input-img' src={imagePath} style={{maxHeight : "60vh", maxWidth : "60vw"}}/> <br/>
-            <input type='file' onChange={handleFileChange}/> <br/>
-            <button onClick={handleExtract}>Extract Text</button>
+            <img alt='input-img' src={imagePath} style={{maxHeight : "40vh", maxWidth : "40vw"}}/> <br/>
+            <input type='file' style={{padding : "1vh 1vw"}} onChange={handleFileChange}/> <br/>
+            <Button variant='contained' color="warning" onClick={handleExtract}>Extract Text</Button>
          </div>
 
         <div id="text-area">
             <h3>Extracted Text : </h3>
-            <textarea rows={4} cols={50} value={imageText}></textarea> 
+            <textarea rows={8} cols={80} value={imageText}></textarea> 
             <div>
-                <p>Confidence Score : {analytics.confidenceScore}</p>
+                <p>Confidence Score : {analytics.confidenceScore}%</p>
                 <p>Word Count : {analytics.wordCount}</p>
                 <p>Unique Character Count : {analytics.symbolCount}</p>
             </div>
+        </div>
         </div>
       </div>
     

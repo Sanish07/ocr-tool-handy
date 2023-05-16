@@ -1,0 +1,72 @@
+:root{
+  color-scheme: dark;
+}
+
+::-moz-selection {
+  color: #19A7CE;
+  background: #FEFF86;
+}
+
+::selection {
+  color: #19A7CE;
+  background: #FEFF86;
+}
+
+@font-face {
+  font-family: logo-font;
+  src: url("../public/fonts/Billabong.ttf");
+}
+
+body{
+  background: rgb(84,38,253);
+  background: linear-gradient(344deg, rgba(84,38,253,1) 0%, rgba(42,228,242,1) 100%);
+  min-height: 97vh;
+  overflow: auto;
+  color : white
+}
+
+#logo-area{
+  color : #FFF7D4;
+  text-align: start;
+  font-family: logo-font;
+  font-size: 3.7rem;
+  margin-top: 3vh;
+  padding: 1vh 8vw;
+  span{
+    color : #FFB84C;
+  }
+}
+
+#main-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3vh 7vw;
+  margin-top: 2vh;
+  *{
+    margin-left: 2vw;
+  }
+}
+
+#img-area{
+  text-align: center;
+  *{
+    margin-top: 2vh;
+  }
+}
+
+textarea{
+  background: rgba(43, 44, 62, 0.2);
+  color : whitesmoke;
+  padding: 1vh 1vw;
+  font-size: 1.05rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text-area{
+  div{
+    p{
+      font-size: 1.2rem;
+    }
+  }
+}
