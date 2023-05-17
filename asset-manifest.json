@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ocr-tool-handy/static/css/main.1f4b532f.css",
+    "main.js": "/ocr-tool-handy/static/js/main.16a9459c.js",
+    "static/js/787.978b72c7.chunk.js": "/ocr-tool-handy/static/js/787.978b72c7.chunk.js",
+    "static/media/Billabong.ttf": "/ocr-tool-handy/static/media/Billabong.0e94b13a1cfb505ff271.ttf",
+    "index.html": "/ocr-tool-handy/index.html",
+    "main.1f4b532f.css.map": "/ocr-tool-handy/static/css/main.1f4b532f.css.map",
+    "main.16a9459c.js.map": "/ocr-tool-handy/static/js/main.16a9459c.js.map",
+    "787.978b72c7.chunk.js.map": "/ocr-tool-handy/static/js/787.978b72c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f4b532f.css",
+    "static/js/main.16a9459c.js"
+  ]
+}
