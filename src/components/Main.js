@@ -45,7 +45,7 @@ const Main = () => {
             <div>
                 <p>Confidence Score : {analytics.confidenceScore}%</p>
                 <p>Word Count : {analytics.wordCount}</p>
-                <p>Unique Character Count : {analytics.symbolCount}</p>
+                <p>Character Count : {analytics.symbolCount}</p>
             </div>
         </div>
         </div>
